@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "favourites",
+  "info": {
+    "singularName": "favourite",
+    "pluralName": "favourites",
+    "displayName": "Favourite",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "longitudes": {
+      "type": "string"
+    },
+    "latitudes": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}
