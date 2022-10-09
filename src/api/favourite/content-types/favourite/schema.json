@@ -13,13 +13,16 @@
   "pluginOptions": {},
   "attributes": {
     "name": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "longitudes": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "latitudes": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "formatted_address": {
       "type": "string",
@@ -30,7 +33,8 @@
       "required": true
     },
     "place_id": {
-      "type": "string"
+      "type": "string",
+      "required": true
     }
   }
 }
