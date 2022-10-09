@@ -21,16 +21,16 @@
     "latitudes": {
       "type": "string"
     },
-    "image": {
-      "type": "media",
-      "multiple": false,
-      "required": false,
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ]
+    "formatted_address": {
+      "type": "string",
+      "required": true
+    },
+    "photo_reference": {
+      "type": "string",
+      "required": true
+    },
+    "place_id": {
+      "type": "string"
     }
   }
 }
