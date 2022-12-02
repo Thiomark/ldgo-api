@@ -26,7 +26,8 @@
     },
     "formatted_address": {
       "type": "string",
-      "required": true
+      "required": true,
+      "unique": true
     },
     "photo_reference": {
       "type": "string",
